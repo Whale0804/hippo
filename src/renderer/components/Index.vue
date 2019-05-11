@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="-webkit-app-region: drag">
         <el-container class="container">
             <el-header style="-webkit-app-region: drag">
                 <h1 class="logo">

@@ -22,6 +22,7 @@
     display: none;
   }
   html {
+    -webkit-app-region: drag;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
