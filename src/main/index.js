@@ -76,7 +76,7 @@ function createIndexWindow (){
   indexWindow = new BrowserWindow({
     height: 650,
     useContentSize: true,
-    width: 980,
+    width: 1080,
     show: false,
     titleBarStyle: 'hidden',
     resizable: false,

@@ -17,7 +17,25 @@
                 </el-tooltip>
             </el-header>
             <el-container>
-
+                <el-container style="position: relative;">
+                    <el-aside width="230px" class="aside">
+                        <div class="side-wrapper">
+                            <div>
+                                <el-button type="primary" round size="small" class="btn">新建链接</el-button>
+                            </div>
+                            <div class="db-list">
+                                1
+                            </div>
+                        </div>
+                    </el-aside>
+                    <el-container>
+                        <el-main class="main">
+                            <keep-alive>
+                                <router-view></router-view>
+                            </keep-alive>
+                        </el-main>
+                    </el-container>
+                </el-container>
             </el-container>
         </el-container>
     </div>
@@ -95,5 +113,33 @@ export default {
                 height: auto;
             }
         }
+    }
+    .aside {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to bottom, #efefef, #efefef);
+    }
+    .main {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        flex: 1;
+        flex-shrink: 0;
+    }
+    .side-wrapper{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .btn{
+            width: 100%;
+        }
+    }
+    .db-list{
+        background: #5daf34;
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
     }
 </style>
