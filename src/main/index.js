@@ -80,9 +80,6 @@ function createIndexWindow (){
     show: false,
     titleBarStyle: 'hidden',
     resizable: false,
-    webPreferences: {
-      webSecurity: false
-    }
   })
   indexWindow.loadURL(indexURL)
 

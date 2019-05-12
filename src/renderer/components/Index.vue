@@ -21,7 +21,7 @@
                     <el-aside width="230px" class="aside">
                         <div class="side-wrapper">
                             <div>
-                                <el-button type="primary" round size="small" class="btn">新建链接</el-button>
+                                <el-button type="primary" @click="createLink" round size="small" class="btn">新建链接</el-button>
                             </div>
                             <div class="db-list">
                                 1
@@ -55,12 +55,16 @@ export default {
       },
       onLogout: function () {
           this.$electron.ipcRenderer.send("onLogout", false);
+      },
+      createLink: function () {
+          localStorage.setItem("key","123")
       }
   },
   mounted() {
       this.$electron.ipcRenderer.on("msg", (event, data) => {
           console.log(data)
       });
+      console.log(localStorage.getItem("key"));
   },
   watch: {
 
