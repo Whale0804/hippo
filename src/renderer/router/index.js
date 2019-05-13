@@ -13,7 +13,7 @@ const routes = [{
     {
       path: '/hello',
       name: 'hello',
-      component: require('@/components/HelloWorld').default
+      component: require('@/components/connectMenu').default
     }
   ]
 }, {

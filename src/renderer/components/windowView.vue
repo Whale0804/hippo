@@ -8,7 +8,7 @@
                 </div>
                 <div class="db-list">
                     <div class="db-wrapper">
-                        111
+                        <connect-menu ref="connects"></connect-menu>
                     </div>
                 </div>
             </div>
@@ -44,6 +44,7 @@
 
 <script>
     import db from '../db/Storage';
+    import connectMenu from './connectMenu'
     export default {
         data() {
             return {
@@ -91,7 +92,8 @@
                             });
                             return;
                         }
-                        this.dialogFormVisible = true;
+                        this.dialogFormVisible = false;
+                        this.$refs.connects.init();
                     } else {
                         return false;
                     }
@@ -107,9 +109,12 @@
                 console.log(data)
             });
             console.log(localStorage.getItem("key"));
+            this.$refs.connects.init();
         },
         watch: {},
-        components: {}
+        components: {
+            connectMenu,
+        }
     };
 </script>
 
@@ -153,8 +158,7 @@
     }
 
     .db-wrapper {
-        height: 1000px;
-        background: #dd6161;
+        height: 100%;
         width: 100%;
     }
 </style>
