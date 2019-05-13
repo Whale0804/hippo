@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8805bb-b2f5-4d18-8bb2-0a59bcbdb88c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/config/contants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/db/Storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/db/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/icon/shell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/i18n/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/i18n/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/i18n/langs/zh.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/frameViews.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/frameViews.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/windowView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/windowView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/db/DB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/db/DB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/icon/quit.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +21,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/windowView.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+            <state relative-caret-position="404">
+              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/i18n/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/i18n/langs/zh.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/i18n/langs/en.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -51,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/renderer/components/frameViews.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="n#style#1;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -65,6 +97,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,9 +132,13 @@
         <option value="$PROJECT_DIR$/src/renderer/db/table.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/HelloWorld.vue" />
         <option value="$PROJECT_DIR$/src/renderer/db/DB.js" />
-        <option value="$PROJECT_DIR$/src/renderer/main.js" />
         <option value="$PROJECT_DIR$/src/renderer/db/Storage.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/windowView.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/lang/zh.js" />
+        <option value="$PROJECT_DIR$/src/renderer/lang/en.js" />
+        <option value="$PROJECT_DIR$/src/renderer/lang/index.js" />
+        <option value="$PROJECT_DIR$/src/renderer/i18n/index.js" />
+        <option value="$PROJECT_DIR$/src/renderer/main.js" />
       </list>
     </option>
   </component>
@@ -143,12 +180,6 @@
               <item name="hippo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hippo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hippo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hippo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,21 +187,7 @@
               <item name="hippo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hippo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hippo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hippo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hippo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hippo" type="b2602c69:ProjectViewProjectNode" />
@@ -211,6 +228,7 @@
       <recent name="$PROJECT_DIR$/src/renderer/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/renderer/i18n/langs" />
       <recent name="$PROJECT_DIR$/src/renderer/db" />
       <recent name="$PROJECT_DIR$/static/icon" />
     </key>
@@ -250,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557476862901</updated>
       <workItem from="1557476864572" duration="27887000" />
-      <workItem from="1557588582174" duration="26226000" />
+      <workItem from="1557588582174" duration="26703000" />
     </task>
     <task id="LOCAL-00001" summary="初始化框架提交">
       <created>1557479709016</created>
@@ -287,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557721858535</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="使用indexeddb失败，改用localStorage">
+      <created>1557741810360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557741810360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54113000" />
+    <option name="totallyTimeSpent" value="54590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
@@ -308,13 +333,13 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992057" visible="true" weight="0.26950353" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992057" weight="0.26950353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.40272614" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.40222898" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32961586" />
@@ -373,7 +398,8 @@
     <MESSAGE value="可拖动" />
     <MESSAGE value="添加Indexeddb" />
     <MESSAGE value=":wrench: 修改路由配置" />
-    <option name="LAST_COMMIT_MESSAGE" value=":wrench: 修改路由配置" />
+    <MESSAGE value="使用indexeddb失败，改用localStorage" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用indexeddb失败，改用localStorage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.ejs">
@@ -390,13 +416,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/LandingPage/SystemInformation.vue" />
     <entry file="file://$PROJECT_DIR$/src/renderer/components/LandingPage.vue" />
@@ -482,7 +501,7 @@
     <entry file="file://$PROJECT_DIR$/src/renderer/components/frameViews.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="n#style#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
@@ -493,13 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="707">
           <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -522,8 +534,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/windowView.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="93" column="54" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
+        <state relative-caret-position="404">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/i18n/langs/zh.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/i18n/langs/en.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/i18n/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
