@@ -2,7 +2,6 @@
   <div class="hello">
 
     <div class="header">
-      <img class="logo" src="../assets/tel.svg" />
       <span>{{title}}</span>      
     </div>
 
@@ -40,12 +39,10 @@
               <el-button
                 size="mini"
                 @click="handleEdit(scope.$index, scope.row)">
-                <img class="edit" src="../assets/edit.svg" />
                 </el-button>
               <el-button
                 size="mini"
                 @click="handleDelete(scope.$index, tables[0].name)">
-                <img class="edit" src="../assets/del.svg" />
                 </el-button>
             </template>
           </el-table-column>
