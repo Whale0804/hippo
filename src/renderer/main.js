@@ -8,8 +8,10 @@ import ElementUI from 'element-ui';
 import '../../static/theme/index.css';
 Vue.use(ElementUI);
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
-Vue.http = Vue.prototype.$http = axios
+
 Vue.config.productionTip = false
+
+Vue.http = Vue.prototype.$http = axios
 
 
 /* eslint-disable no-new */
