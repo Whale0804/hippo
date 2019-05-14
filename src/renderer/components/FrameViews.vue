@@ -16,16 +16,16 @@
           </div>
         </div>
       </el-header>
-      <window-view ref="windowView"></window-view>
+      <WindowView ref="windowView"></WindowView>
   </el-container>
 </template>
 
 <script>
-import windowView from './windowView'
+import WindowView from './WindowView'
 export default {
-  name: 'frameViews',
+  name: 'FrameViews',
   components: {
-    windowView
+    WindowView
   },
   data (){
     return {

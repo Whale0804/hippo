@@ -8,14 +8,14 @@
                 </div>
                 <div class="db-list">
                     <div class="db-wrapper">
-                        <connect-menu ref="connects"></connect-menu>
+                        <ConnectMenu ref="connects"></ConnectMenu>
                     </div>
                 </div>
             </div>
         </el-aside>
-        <el-container style="padding: 30px">
+        <div class="content-wrapper">
             <router-view></router-view>
-        </el-container>
+        </div>
         <el-dialog title="创建连接" :visible.sync="dialogFormVisible">
             <el-form :model="connection" :rules="rules" ref="ruleForm">
                 <el-form-item prop="name" label="名称" :label-width="formLabelWidth">
@@ -44,7 +44,7 @@
 
 <script>
     import db from '../db/Storage';
-    import connectMenu from './connectMenu'
+    import ConnectMenu from './ConnectMenu'
     export default {
         data() {
             return {
@@ -113,7 +113,7 @@
         },
         watch: {},
         components: {
-            connectMenu,
+            ConnectMenu,
         }
     };
 </script>
@@ -160,5 +160,11 @@
     .db-wrapper {
         height: 100%;
         width: 100%;
+    }
+    .content-wrapper {
+        width: 100%;
+        height: 570px;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 </style>

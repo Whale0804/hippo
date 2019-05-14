@@ -7,19 +7,19 @@ Vue.use(Router)
 const routes = [{
   path: '/index',
   name: 'index',
-  redirect: {name: 'hello'},
-  component: require('@/components/frameViews').default,
+  redirect: {name: 'info'},
+  component: require('@/components/FrameViews').default,
   children: [
     {
-      path: '/hello',
-      name: 'hello',
-      component: require('@/components/connectMenu').default
+      path: '/info',
+      name: 'info',
+      component: require('@/components/RedisInfo').default
     }
   ]
 }, {
   path: '/',
   name: 'login',
-  component: require('@/components/login').default
+  component: require('@/components/Login').default
 },{
   path: '*',
   redirect: '/'

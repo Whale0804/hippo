@@ -88,14 +88,14 @@ function createIndexWindow (){
   });
 
   let template = [{
-    label: "Application",
+    label: "Hippo",
     submenu: [
       { label: "About Application", selector: "orderFrontStandardAboutPanel:" },
       { type: "separator" },
       { label: "Quit", accelerator: "Command+Q", click: function () { app.quit(); } }
     ]
   }, {
-    label: "Edit",
+    label: "其他",
     submenu: [
       { label: "Undo", accelerator: "CmdOrCtrl+Z", selector: "undo:" },
       { label: "Redo", accelerator: "Shift+CmdOrCtrl+Z", selector: "redo:" },
