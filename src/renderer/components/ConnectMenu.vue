@@ -31,19 +31,28 @@
             init: function () {
                 const connects = db.getConnections(true);
 
-                for (const item of connects) {
-                    item.showName = item.name || `${item.host}@${item.port}`;
-                }
-
                 this.connects = connects;
-
-                console.log(connects)
+                if(this.connects.length > 0){
+                    this.$router.push({
+                        path: '/info',
+                        query: {
+                            connect: this.connects[0],
+                            key: 0,
+                        }
+                    })
+                }
             },
             getConnectionKey: function (item) {
                 return db.getConnectionKey(item);
             },
             handleSelect(key) {
-                console.log(this.connects[key]);
+                this.$router.push({
+                    path: '/info',
+                    query: {
+                        connect: this.connects[key],
+                        key: key,
+                    }
+                })
             }
         }
     }

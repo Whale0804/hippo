@@ -1,6 +1,7 @@
 import redis from 'redis';
 import bluebird from 'bluebird';
 import tunnelssh from 'tunnel-ssh';
+import {Message} from "element-ui";
 
 bluebird.promisifyAll(redis);
 
@@ -66,7 +67,7 @@ export default {
         const maxRetryTimes = 3;
 
         if (options.attempt > maxRetryTimes) {
-            alert(`${connection.host}:${connection.port}\nToo Many Attempts To Reconnect. Please Check The Server Status!`);
+            Message.error(`${connection.host}:${connection.port}\nToo Many Attempts To Reconnect. Please Check The Server Status!`);
             return false;
         }
 

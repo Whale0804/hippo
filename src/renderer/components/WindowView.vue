@@ -87,7 +87,7 @@
                         const connect = JSON.parse(JSON.stringify(this.connection));
                         if (db.addConnection(connect) === false) {
                             this.$message.error({
-                                message: '',
+                                message: '新建连接失败',
                                 duration: 2000,
                             });
                             return;
@@ -163,7 +163,7 @@
     }
     .content-wrapper {
         width: 100%;
-        height: 570px;
+        height: 590px;
         overflow-y: auto;
         overflow-x: hidden;
     }
